@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão 2049: O Despertar da IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TELA INICIAL DO JOGO -->
+    <div id="tela-inicial" class="container-tela">
+        <h1 class="titulo-neon">🚀 MISSÃO: ANO 2049</h1>
+        <p class="subtitulo">Tome decisões cruciais que mudarão o destino da humanidade e das máquinas.</p>
+        <button id="botao-entrar" class="botao-cyber">ENTRAR NA MISSÃO</button>
+    </div>
+
+    <!-- TELA PRINCIPAL DO QUIZ / HISTÓRIA -->
+    <div id="caixa-quiz" class="container-tela escondido">
+        <div class="caixa-conteudo">
+            <p id="texto-historia" class="texto-principal">Carregando história...</p>
+            <div id="caixa-botoes" class="grupo-botoes">
+                <!-- Os botões de opções vão aparecer aqui dentro via JavaScript -->
+            </div>
+            <button id="botao-reiniciar" class="botao-cyber escondido">🔄 JOGAR NOVAMENTE</button>
+        </div>
+    </div>
+
+    <!-- IMPORTANTE: type="module" permite usar import/export do JavaScript -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
