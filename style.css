@@ -1,0 +1,109 @@
+/* Importando uma fonte moderna do Google Fonts */
+@import url('https://googleapis.com');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Containers das Telas */
+.container-tela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.caixa-conteudo {
+    background-color: #1f2833;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #66fcf1;
+    box-shadow: 0 0 20px rgba(102, 252, 241, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Textos */
+.titulo-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #66fcf1;
+    text-shadow: 0 0 10px #66fcf1, 0 0 20px #66fcf1;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.texto-principal {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Botões */
+.grupo-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.botao-cyber {
+    font-family: 'Orbitron', sans-serif;
+    background-color: transparent;
+    color: #66fcf1;
+    border: 2px solid #66fcf1;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.botao-cyber:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    box-shadow: 0 0 15px #66fcf1;
+    transform: scale(1.02);
+}
+
+#botao-reiniciar {
+    margin-top: 20px;
+    border-color: #ff007f;
+    color: #ff007f;
+    width: 100%;
+}
+
+#botao-reiniciar:hover {
+    background-color: #ff007f;
+    color: white;
+    box-shadow: 0 0 15px #ff007f;
+}
+
+/* Classes de Utilidade */
+.escondido {
+    display: none !important;
+}
